@@ -1,0 +1,48 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "./*"
+      ],
+      "~/*": [
+        "src/*"
+      ],
+      "tests": [
+        "tests/*"
+      ],
+      "@models/*": [
+        "src/domain/models/*"
+      ],
+      "@repositoriesData/*": [
+        "src/domain/repositories/*"
+      ],
+      "@servicesData/*": [
+        "src/domain/services/*"
+      ],
+      "@components/*": [
+        "src/infrastructure/components/*"
+      ],
+      "@repositories/*": [
+        "src/infrastructure/repositories/*"
+      ],
+      "@services/*": [
+        "src/infrastructure/services/*"
+      ],
+      "@views/*": [
+        "src/infrastructure/views/*"
+      ],
+      "@viewmodels/*": [
+        "src/infrastructure/viewmodels/*"
+      ],
+      "@utils/*": [
+        "src/utils/*"
+      ],
+      "@assets/*": [
+        "assets/*"
+      ]
+    }
+  }
+}
