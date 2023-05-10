@@ -16,6 +16,7 @@
     "@realm/react": "^0.4.3",
     "axios": "^1.4.0",
     "expo": "~48.0.15",
+    "expo-dev-client": "~2.2.1",
     "expo-status-bar": "~1.4.4",
     "lodash": "^4.17.21",
     "react": "18.2.0",
